@@ -1,0 +1,201 @@
+body{
+    background: #19294a;
+}
+
+#top{
+    text-align: center;
+    margin: auto;
+    width: 50vw;
+}
+
+#top #score{
+    font-size: 2vw;
+    font-family: Georgia, serif;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    color: #46D0FA;
+    font-weight: 700;
+    text-decoration: rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+#center{
+    text-align: center;
+}
+
+#board {
+    position: relative;
+    margin: 10px auto;
+    width: 80%;
+    min-width: 80%;
+    text-align: center;
+}
+
+#board .card{
+    display: inline-block;
+    min-width: 10vh;
+    min-height: 10vh;
+    background: green;
+    margin: 10px;
+    background: url("img/hiddenCard.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 4px solid  #604020;
+    border-radius: 4px;
+    cursor: pointer;
+    filter: brightness(70%);
+    transition: all 500ms ease-in-out;
+}
+
+
+#board .hidden{
+    display: inline-block;
+    min-width: 10vh;
+    min-height: 10vh;
+    background: green;
+    margin: 10px;
+    background: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 4px solid  #604020;
+    border-radius: 4px;
+    cursor: default;
+    filter: brightness(70%);
+    transition: all 500ms ease-in-out;
+    opacity: 0;
+}
+
+#board .card:hover
+{
+    border: 4px solid #E9B64A;
+    filter: brightness(100%);
+}
+
+#board .highlight {
+    border-color: #e9b64a;
+    cursor: default;
+    filter: brightness(100%);
+}
+
+#board .rotateCard {
+    transform: scaleX(-1) rotateY(180deg);
+    transition: all 0.3s ease-in-out;
+}
+
+#board .cardRev{
+    display: inline-block;
+    min-width: 12vh;
+    min-height: 12vh;
+    background: green;
+    margin: 10px;
+    background: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 4px solid  red;
+    border-radius: 4px;
+    filter: brightness(70%);
+    transition: all 500ms ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+.customButton {
+    box-shadow:inset 0px 1px 23px -11px #23395e;
+    background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+    background-color:#2e466e;
+    border-radius:9px;
+    border:1px solid #1f2f47;
+    display:inline-block;
+    cursor:pointer;
+    color:#46d0fa;
+    font-family:Arial;
+    font-size:2vh;
+    min-font-size: 16px;
+    padding:4px 20px;
+    text-decoration:none;
+    text-shadow:4px 5px 2px #263666;
+    margin: 2px 4px 2px 4px;
+}
+.customButton:hover {
+    background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+    background-color:#415989;
+}
+.customButton:active {
+    position:relative;
+    top:1px;
+}
+.customButton:disabled {
+    background:linear-gradient(to bottom, #6f83a3 5%, #7f97c7 100%);
+    background-color:#6f83a3;
+    color:#a1bac2;
+}
+
+
+#board #scoreBoard {
+    border: 3px solid #000000;
+    background-color: #5E9CFF;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+}
+#board #scoreBoard td, #board #scoreBoard th {
+    border: 1px solid #000000;
+    padding: 6px 6px;
+}
+
+#board #scoreBoard tbody td {
+    font-size: 16px;
+    color: #000000;
+}
+#board #scoreBoard tr:nth-child(even) {
+    background: #459DE1;
+}
+#board #scoreBoard thead {
+    background: #A7A7A7;
+    background: -moz-linear-gradient(top, #bdbdbd 0%, #afafaf 66%, #A7A7A7 100%);
+    background: -webkit-linear-gradient(top, #bdbdbd 0%, #afafaf 66%, #A7A7A7 100%);
+    background: linear-gradient(to bottom, #bdbdbd 0%, #afafaf 66%, #A7A7A7 100%);
+    border-bottom: 5px solid #000000;
+}
+#board #scoreBoard thead th {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+#board #scoreBoard tfoot td {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

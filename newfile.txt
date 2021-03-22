@@ -1,0 +1,7 @@
+Gracz - AlaMaKota, Wynik: 2, Trudnosc: 4
+Gracz - Zuzio, Wynik: 2, Trudnosc: 4
+Gracz - testestest, Wynik: 3, Trudnosc: 4
+Gracz - Im Awesome, Wynik: 13, Trudnosc: 16
+Gracz - ImAwesomeToo, Wynik: 46, Trudnosc: 36
+Gracz - linus, Wynik: 3, Trudnosc: 4
+Gracz - Player, Wynik: 4, Trudnosc: 4
