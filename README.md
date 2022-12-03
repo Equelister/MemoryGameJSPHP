@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-   <img src="https://github.com/Equelister/MemoryGameJSPHP/ReadmeFiles/ApplicationRun.gif">
+   <img src="https://github.com/Equelister/MemoryGameJSPHP/blob/master/ReadmeFiles/ApplicationRun.gif">
 </p>
 
 MemoryGameJSPHP is a memory game written in JavaScript, where the database connection was handled using PHP.
